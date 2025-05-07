@@ -16,11 +16,11 @@ function Form() {
         <h1>Full Name Display</h1>
         <form onSubmit={handleSubmit}>
             <div>
-                <label htmlFor="fname">FIRSTNAME </label>
+                <label htmlFor="fname">First Name </label>
                 <input type="text" id="fname" pattern="[A-Za-z]+" required onChange={e => setFirstname(e.target.value)}/>
             </div>
             <div>
-                <label htmlFor="lname">LASTNAME </label>
+                <label htmlFor="lname">Last Name </label>
                 <input type="text" id="lname" pattern="[A-Za-z]+" required onChange={e => setLastname(e.target.value)}/>
             </div>
             <button type='submit'>SUBMIT</button>
